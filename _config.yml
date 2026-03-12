@@ -2,7 +2,6 @@ title: "Exo-maths"
 description: "Exercices et notes de maths"
 baseurl: "/math-exo"
 url: "https://lukaraos.io"
-theme: minima
 markdown: kramdown
 kramdown:
   math_engine: mathjax

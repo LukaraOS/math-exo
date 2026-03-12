@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Suites
+title: Exercice 1
 ---
 
 # Exercice
