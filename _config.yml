@@ -1,17 +1,13 @@
-# _config.yml
 title: "Exo-maths"
 description: "Exercices et notes de maths"
 baseurl: "/math-exo"
 url: "https://lukaraos.io"
-remote_theme: jekyll/minima
-
+theme: minima
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   math_engine_opts: {}
   syntax_highlighter: rouge
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
