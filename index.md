@@ -8,7 +8,7 @@ title: Suites
 Soit $z \in \mathbb{C}, |z| \neq 1$, une racine de $P$, existant
 par le théorème de d'Alembert-Gauss, car $P \neq (X-1)^n$.
 
-Supposons par l'absurde que $|z|>1$.
+Supposons par l'absurde que $\vert z\vert>1$.
 
 On a alors, $$P(z)=0$$
 $$nz^n - \sum_{k=0}^{n-1}z^k=0$$ $$\sum_{k=0}^{n-1}z^n = \sum_{k=0}^{n-1}z^k$$   

@@ -9,9 +9,12 @@ theme: minima  # ou un autre thème que tu aimes
 # Pour MathJax
 markdown: kramdown
 kramdown:
+  kramdown:
   math_engine: mathjax
   math_engine_opts: {}
   syntax_highlighter: rouge
+  parse_block_html: true
+  parse_inline_html: true
   mathjax:
     # chemin vers MathJax si nécessaire, sinon Jekyll inclut déjà
     version: "3"
