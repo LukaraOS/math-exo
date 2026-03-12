@@ -32,7 +32,9 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             if (window.MathJax) {
-                MathJax.typesetPromise();
+                MathJax.typesetPromise()
+                    .then(() => console.log("MathJax a scanné le contenu"))
+                    .catch((err) => console.error(err.message));
             }
         });
     </script>
