@@ -11,8 +11,10 @@ $$
 x^2 - 3x^{1341} + 2 = 0
 $$
 
-<div class="indication">
+<details>
+<summary>Indice</summary>
 
 Factoriser.
 
-</div>
+</details>
+

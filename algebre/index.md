@@ -6,4 +6,6 @@ title: Algèbre
 
 Liste des exercices d'algèbre :
 
-- [Polynômes](polynomes/ex1.html)
+- [Polynômes](polynomes/indexpolynomes.md)
+- [Matrices](polynomes/indexpolynomes.md)
+- [Algèbre linéaire](polynomes/indexpolynomes.md)

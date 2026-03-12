@@ -23,9 +23,11 @@ $|z|^n>|z|^k$, il vient que :
 $$
 \sum_{k=0}^{n-1}|z|^n > \sum_{k=0}^{n-1}|z|^k 
 $$
+
 Or, d'après la box rouge,  
 
-$$n|z^n|= \sum_{k=0}^{n-1}|z^n| = |\sum_{k=0}^{n-1}z^k| \leq \sum_{k=0}^{n-1}|z^k|
+$$
+n|z^n|= \sum_{k=0}^{n-1}|z^n| = |\sum_{k=0}^{n-1}z^k| \leq \sum_{k=0}^{n-1}|z^k|
 $$
 
 $$
@@ -35,4 +37,5 @@ $$
 $$
 \sum_{k=0}^{n-1}|z^k| > \sum_{k=0}^{n-1}|z|^k 
 $$
+
 Ce qui est absurde. 

@@ -41,3 +41,17 @@ mjx-container[display="true"] {
     overflow-x: auto;
     margin: 1em 0;
 }
+
+details {
+    border-left: 3px solid #4a90e2;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    background: #f0f4ff;
+    border-radius: 4px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #4a90e2;
+}

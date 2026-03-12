@@ -4,6 +4,6 @@ title: Analyse
 ---
 # Analyse
 
-Liste des exercices d'analyse :
+Liste des thèmes d'analyse :
 
-- [Suites](bin.html)
+- [Continuité](continuite/indexcontinuite.md)
