@@ -2,14 +2,16 @@
 
 title: "Exo-maths"
 description: "Exercices et notes de maths"
-baseurl: ""  # si ton blog est à la racine, sinon /nom-du-repo
-url: "http://localhost:4000"  # pour tests en local
+baseurl: "/math-exo"  # si ton blog est à la racine, sinon /nom-du-repo
+url: "https://lukaraos.io"  # pour tests en local
 theme: minima  # ou un autre thème que tu aimes
 
 # Pour MathJax
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+  math_engine_opts: {}
+  syntax_highlighter: rouge
   mathjax:
     # chemin vers MathJax si nécessaire, sinon Jekyll inclut déjà
     version: "3"
