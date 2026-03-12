@@ -2,7 +2,7 @@
 
 title: "Exo-maths"
 description: "Exercices et notes de maths"
-baseurl: ""  # si ton blog est à la racine, sinon /nom-du-repo
+baseurl: "LukaraOS/math-exo"  # si ton blog est à la racine, sinon /nom-du-repo
 url: "http://localhost:4000"  # pour tests en local
 theme: minima  # ou un autre thème que tu aimes
 
