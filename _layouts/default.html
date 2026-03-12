@@ -5,7 +5,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 20px 30px;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #222;
+            padding-bottom: 12px;
+            margin-bottom: 30px;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #444;
+            font-size: 0.95em;
+        }
+
+        nav a:hover {
+            color: #007acc;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        mjx-container[display="true"] {
+            display: block;
+            overflow-x: auto;
+            margin: 1.2em 0;
+            text-align: center;
+        }
+    </style>
     <script>
         window.MathJax = {
             tex: {
