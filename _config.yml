@@ -1,26 +1,16 @@
 # _config.yml
-
 title: "Exo-maths"
 description: "Exercices et notes de maths"
-baseurl: "/math-exo"  # si ton blog est à la racine, sinon /nom-du-repo
-url: "https://lukaraos.io"  # pour tests en local
+baseurl: "/math-exo"
+url: "https://lukaraos.io"
 remote_theme: jekyll/minima
 
-
-# Pour MathJax
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   math_engine_opts: {}
   syntax_highlighter: rouge
-  parse_block_html: true
-  parse_inline_html: true
-  mathjax:
-    # chemin vers MathJax si nécessaire, sinon Jekyll inclut déjà
-    version: "3"
-    cdn: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 
-# Plugins utiles
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
