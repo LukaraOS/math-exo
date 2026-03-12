@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
     <script>
         window.MathJax = {
             tex: {
@@ -16,19 +15,20 @@
             }
         };
     </script>
-
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/analyse/">Analyse</a></li>
-            <li><a href="/algebre/">Algèbre</a></li>
+            <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+            <li><a href="{{ '/analyse/' | relative_url }}">Analyse</a></li>
+            <li><a href="{{ '/algebre/' | relative_url }}">Algèbre</a></li>
         </ul>
     </nav>
-    {{ content | markdownify }}
+
+    {{ content }}
+
 </body>
 
 </html>
