@@ -4,12 +4,12 @@ title: "Exo-maths"
 description: "Exercices et notes de maths"
 baseurl: "/math-exo"  # si ton blog est à la racine, sinon /nom-du-repo
 url: "https://lukaraos.io"  # pour tests en local
-theme: minima  # ou un autre thème que tu aimes
+remote_theme: jekyll/minima
+
 
 # Pour MathJax
 markdown: kramdown
 kramdown:
-  kramdown:
   math_engine: mathjax
   math_engine_opts: {}
   syntax_highlighter: rouge
@@ -24,3 +24,4 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
