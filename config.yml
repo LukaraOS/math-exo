@@ -1,0 +1,21 @@
+# _config.yml
+
+title: "Exo-maths"
+description: "Exercices et notes de maths"
+baseurl: ""  # si ton blog est à la racine, sinon /nom-du-repo
+url: "http://localhost:4000"  # pour tests en local
+theme: minima  # ou un autre thème que tu aimes
+
+# Pour MathJax
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  mathjax:
+    # chemin vers MathJax si nécessaire, sinon Jekyll inclut déjà
+    version: "3"
+    cdn: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+# Plugins utiles
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
